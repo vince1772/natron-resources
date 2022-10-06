@@ -1,0 +1,243 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 227px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  margin: 50px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-weight: 400;
+  width: 670px;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  font-size: 1.5rem;
+  margin: 19px auto;
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-2 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-2 {
+    width: 340px;
+    font-size: 1rem;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 391px;
+}
+
+.u-section-2 .u-image-1 {
+  width: 280px;
+  height: 350px;
+  --animation-custom_in-translate_x: -200px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  margin: 45px auto 0 80px;
+}
+
+.u-section-2 .u-group-1 {
+  width: 749px;
+  min-height: 319px;
+  height: auto;
+  margin: -289px 18px 0 auto;
+}
+
+.u-section-2 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-2 .u-text-1 {
+  font-weight: 400;
+  font-size: 1.125rem;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  margin: 0;
+}
+
+.u-section-2 .u-text-2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: -20px auto 0 140px;
+}
+
+.u-section-2 .u-text-3 {
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin: 0 auto 12px 150px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-group-1 {
+    margin-top: 20px;
+    height: auto;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-group-1 {
+    width: 720px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-group-1 {
+    width: 540px;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 962px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-top: 1px;
+    margin-left: auto;
+  }
+
+  .mr-ansley{
+    padding-left: 0px !important;
+    margin-top: 10px !important;
+  }
+
+  .u-section-2 .u-group-1 {
+    margin-top: 66px;
+    min-height: 622px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-2 .u-text-2 {
+    width: auto;
+    margin-top: -670px;
+    margin-left: auto;
+  }
+
+  .u-section-2 .u-text-3 {
+    width: auto;
+    margin-left: auto;
+    margin-bottom: 622px;
+  }
+}
+
+/*start*/
+
+/**start**/
+
+.container{
+  max-width: 1083px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#page3-background{
+    padding: 0px 0 70px;
+    background: #f2f7f5;
+}
+#page3-background a{
+    color: #fff;
+    font-weight: 700px;
+    font-size: 15px;
+    background: #f27e26;
+    padding: 5px 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 500px;
+    transition: background 0.5s;
+}
+#page3-background h3{
+    color: black;
+}
+#page3-background h2{
+  text-align: center; 
+  font-size:50px; 
+  style:"font-family:georgia,garamond,serif;"
+}
+
+#page3-background a:hover {
+    background-color: #147bd6;
+}   
+
+.testimonial{
+  padding-top: 10px;
+}
+.testimonial .col-3{
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+.testimonial .col-3 img{
+
+  margin-top: 20px;
+  
+}
+.testimonial .col-3:hover{
+  transform: translateY(-10px);
+}
+.testimonial .col-3 h3{
+  font-weight: 600;
+  color: #555;
+  font-size: 16px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+{  
+    flex-basis: 25%;
+    transition: transform 1.0s ;
+    
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 50px;
+  }
+
+  .col-3{
+  flex-basis: 30%;
+  min-width: 300px;
+  margin-bottom: 30px;
+}
+.col-3 img{
+  width: 250px;
+  height: 300px;
+  }
